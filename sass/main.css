@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 52.5%;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2beeee;
+}
+
+.main-header h1 {
+  color: red;
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.main-header h1:hover {
+  color: cornflowerblue;
+}
+
+.main-header h1::after {
+  content: "Sass";
+}
+
+.main-header p {
+  color: red;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+
+.main-header p:hover {
+  color: cornflowerblue;
+}
+/*# sourceMappingURL=main.css.map */
